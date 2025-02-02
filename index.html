@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Virtual Musical Curator</h1>
+        <div class="search-boxes">
+            <!-- Box for general song search -->
+            <div class="search-box" id="song-search-box">
+                <h2>Random Songs</h2>
+                <input type="text" id="song-description-input" placeholder="Describe what you want to listen to...">
+                <button id="song-search-button">Search Songs</button>
+            </div>
+            <!-- Box for artist search -->
+            <div class="search-box" id="artist-search-box">
+                <h2>Search Artist</h2>
+                <input type="text" id="artist-name-input" placeholder="Enter artist name...">
+                <button id="artist-search-button">Search Artist</button>
+            </div>
+        </div>
+        <div id="recommendations" class="recommendations">
+            <!-- Recommendations will be displayed here -->
+        </div>
+        <footer>
+            <p>&copy; AI MINICOURSE Ngo Bao Lam</p>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
