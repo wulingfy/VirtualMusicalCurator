@@ -1,5 +1,5 @@
-const clientId = '902ffd4c89f244c9aa48e1c27423f079';
-const clientSecret = '2c6e1b093c75464585b7a434e5c3cca0';
+const clientId = 'APICODESPOTIFY';
+const clientSecret = 'APICODESPOTIFY';
 
 async function getAccessToken() {
     const authUrl = 'https://accounts.spotify.com/api/token';
